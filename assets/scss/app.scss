@@ -1,0 +1,45 @@
+//Imports and modules
+
+@import "modules";
+
+//Imports global fonts
+@import "components/fonts";
+
+//Fonts
+$lato:              'Lato', sans-serif;
+$oswald:            'Oswald', sans-serif;
+$open-sans:         'Open Sans', sans-serif;
+
+//Custom Colors
+$black:         #242424;
+
+//Imports custom components
+@import "components/alert";
+@import "components/utility";
+
+
+//Import pages
+@import "pages/home";
+
+//Global Style
+@media #{$small-up} {
+    body {
+        font-family: $open-sans;
+        a, .button, select {
+            outline: none !important;
+        }
+    }
+}
+
+@media #{$medium-up} {
+    body {
+
+    }
+}
+
+@media #{$large-up} {
+    body {
+
+    }
+}
+

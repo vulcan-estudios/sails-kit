@@ -1,0 +1,6 @@
+.flash-message { margin: 5px auto; padding: 0.07em 0 0; text-align: center; width: 50%; }
+.flash-message { left: 25%; position: fixed; top: 45px; z-index: 1055; }
+.flash-message .alert-box { font-size: 14px !important; margin-top: 1.25rem; margin-bottom: 0 !important; font-family: 'Open Sans', 'Helvetica', sans-serif }
+.flash-message .alert-box .close { /*padding: 9px 6px 14px;*/ }
+.flash-message .alert-box p { margin-bottom: 0em; font-size: 14px !important; }
+@media (max-width: 1024px) { .flash-message { left: 5% !important; top: 110px; width: 90%; }}

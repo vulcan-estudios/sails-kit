@@ -8,14 +8,6 @@ Install this packages
 
 `sudo npm install -g grunt-cli`
 
-Ubuntu
-
-`sudo apt-get install imagemagick`
-
-Mac
-
-`brew install imagemagick`
-
 
 Ubuntu & Mac
 

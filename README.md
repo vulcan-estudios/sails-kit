@@ -17,6 +17,8 @@ Ubuntu & Mac
 #Instalation
 Download this repository and install all modules:
 
+`cd sails-kit`
+
 `npm install`
 
 `cd assets/`

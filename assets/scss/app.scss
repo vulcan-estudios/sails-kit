@@ -1,17 +1,15 @@
 //Imports and modules
-
 @import "modules";
 
 //Imports global fonts
 @import "components/fonts";
 
 //Fonts
-$lato:              'Lato', sans-serif;
-$oswald:            'Oswald', sans-serif;
 $open-sans:         'Open Sans', sans-serif;
+$oswald:            'Oswald', sans-serif;
 
 //Custom Colors
-$black:         #242424;
+$black:				 #242424;
 
 //Imports custom components
 @import "components/alert";
@@ -25,9 +23,6 @@ $black:         #242424;
 @media #{$small-up} {
     body {
         font-family: $open-sans;
-        a, .button, select {
-            outline: none !important;
-        }
     }
 }
 

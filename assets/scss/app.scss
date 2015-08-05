@@ -5,15 +5,29 @@
 @import "components/fonts";
 
 //Fonts
-$open-sans:         'Open Sans', sans-serif;
-$oswald:            'Oswald', sans-serif;
+$roboto:			'Roboto', sans-serif;
 
 //Custom Colors
 $black:				 #242424;
 
+// Material Design - Components
+@import
+  "md/components/tabs",
+  "md/components/form",
+  "md/components/cards",
+  "md/components/buttons",
+  "md/components/menus",
+  "md/components/top-bars",
+  "md/components/text-fields",
+  "md/components/switches",
+  "md/components/tooltips",
+  "md/components/summary";
+
 //Imports custom components
 @import "components/alert";
 @import "components/utility";
+@import "components/fonts";
+@import "components/upload";
 
 
 //Import pages
@@ -22,7 +36,7 @@ $black:				 #242424;
 //Global Style
 @media #{$small-up} {
     body {
-        font-family: $open-sans;
+        font-family: $roboto;
     }
 }
 

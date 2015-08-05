@@ -1,0 +1,64 @@
+@media #{$small-up} {
+    body {
+		form {
+
+			.row {
+				&.collapse {
+					.postfix {
+						margin: 1.75rem 0 0.5rem
+					}
+				}
+			}
+
+			.fields {
+				padding-bottom: 1em;
+				padding-top: 1em;
+			}
+
+			label {
+				color: #919191 !important;
+				font-weight: 300;
+			}
+
+			select {
+				background-color: transparent;
+				margin: 1.75rem 0 0.5rem;
+				padding: 0.875rem 0 0rem;
+				color: #262626;
+				&:hover, &:focus {
+					padding-top: 0.75rem;
+					border-bottom-width: 2px;
+					background-color: transparent;
+				}
+			}
+
+			textarea {
+				min-height: 70px;
+			}
+
+			.error {
+				label {
+					color: #de3226 !important;
+				}
+				input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+					border-color: #de3226 !important;
+				}
+				small {
+					background: none !important;
+					color: #de3226 !important;
+					font-size: 0.75rem !important;
+					margin-top: -10px !important;
+					padding-left: 0px !important;
+				}
+			}
+
+			.form-buttons {
+				margin-top: 30px !important;
+				.raised-button, .flat-button, .disabled-button {
+					margin-left: 10px;
+				}
+			}
+
+		}
+    }
+}

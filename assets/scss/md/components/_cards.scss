@@ -1,0 +1,79 @@
+@media #{$small-up} {
+    body {
+		.md-card {
+			background-color: white;
+			z-index: 10;
+			box-shadow: 0px 1px 1px 1px #ccc;
+			border-radius: 1px;
+			padding: 1.25rem;
+			.md-card {
+				padding: 0.9375rem 0.9375rem 0 0.9375rem;
+			}
+			.md-card-header {
+				padding-top: 30px;
+				background-color: #F8F8F8;
+				height: 80px;
+			}
+			/******
+			MENU
+			*******/
+			.md-card-menu {
+				display: inline-block;
+				vertical-align: top;
+				padding: 0;
+				width: 100%;
+				.md-card-menu-dropdown {
+					font-size: 20px;
+					font-weight: bold;
+					color: #757575;
+					text-decoration: none;
+					outline: none;
+					border: none;
+					display: block;
+					line-height: 6px;
+				}
+				ul.f-dropdown {
+					padding: 0;
+					border: none;
+					outline: none;
+					li {
+						border-bottom: 1px solid #E2E2E2;
+						a {
+							text-align: left;
+							color: #747474;
+							font-size: 14px;
+							i {
+								color: #747474;
+								margin-right: 10px;
+								vertical-align: middle;
+							}
+						}
+					}
+				}
+			}
+
+			//BODY
+			.md-card-body {
+				.md-card-description {
+					margin-top: 1rem;
+					padding-top: 0.75rem;
+					p {
+						line-height: 1.1;
+						font-size: 0.875rem;
+					}
+				}
+				&.active, &:hover {
+                    cursor: pointer;
+                    .md-card-description {
+                        background: $primary-color;
+                        padding-bottom: 0.25rem;
+                        padding-top: 0.5rem !important;
+                        p {
+                            color: #fff;
+                        }
+                    }
+                }
+			}
+		}
+    }
+}
